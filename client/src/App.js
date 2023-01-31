@@ -38,7 +38,7 @@ export default function App () {
 
         </Route>
         <Route path ="/">
-
+            <MovieList movies={movieList}/>
         </Route>
 
       </Switch>
